@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th align="right"></th>
+                <th>
+                    Survey Form
+                </th>
+            <tr>
+                <td align="right"></td>
+                <td>
+                    <p> Let us know how we can improve freecodecamp </p>
+                </td>
+            </tr>
+
+
+        </thead>
+
+        <form action="free code">
+            <tr>
+
+
+                <td align="right"><label for="name">*Name: </label></td>
+                <td> <input type="text" id="name" placeholder="Enter your name" required></td>
+
+            </tr>
+
+
+            <tr>
+
+
+                <td align="right"> <label for="email">*Email: </label></td>
+                <td> <input type="email" id="email" placeholder="Enter your Email" required></td>
+
+            </tr>
+            <tr>
+
+
+                <td align="right"><label for="age">*Age: </label></td>
+                <td> <input type="number" id="age" min="10" placeholder="Age">
+                </td>
+            </tr>
+            <div>
+                <tr>
+
+                    <td align="right"><label for="role"> which option best describes your current role?</label></td>
+                    <td> <select id="role">
+                            <option>
+                                student
+                            </option>
+                            <option>
+                                teacher
+                            </option>
+                            <option>
+                                none
+                            </option>
+                        </select></td>
+                </tr>
+                <tr>
+
+
+                    <td align="right"> How likely is that you would recommend freecodecamp to a friend?</td>
+                    <td><input type="radio" name="radio" id="definitely">
+                        <label for="definitely">Definitely</label>
+                    </td>
+
+                </tr>
+                </td>
+                <tr>
+                    <td></td>
+                    <td><input type="radio" name="radio" id="may be">
+                        <label for="may be">May be</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="radio" name="radio" id="Not sure">
+                        <label for="Not sure">Not Sure</label>
+                    </td>
+
+                </tr>
+
+
+
+
+                <tr>
+
+                    <td align="right"> <label for="like">What do you like most in FCC?</label></td>
+                    <td><select name="like" id="like">
+                            <option>Select an option</option>
+                            <option>assignments</option>
+                            <option>Lecture notes</option>
+                            <option>Lectures</option>
+                        </select></td>
+                </tr>
+                <tr>
+
+                    <td align="right">
+                        <label for="improve">
+                            Things that should be improved in the future(check all that
+                            apply)
+                        </label>
+                    </td>
+                    <td> <input type="checkbox" id="front">
+                        <label for="front"> Front-end Projects</label>
+                    </td>
+                </tr>
+
+                <div>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" id="back">
+
+                            <label for="back">Back-end Projects</label>
+                        </td>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <td></td>
+                        <td><input type="checkbox" id="data">
+                            <label for="data">Data Visualization</label>
+                        </td>
+                    </tr>
+                </div>
+                </p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </form>
+
+        <tr>
+            <td></td>
+            <td>
+                <p><button>
+                        Submit
+                    </button></p>
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
